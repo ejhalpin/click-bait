@@ -1,0 +1,56 @@
+[
+  {
+    "id": 0,
+    "src": "bass-lure.jpg"
+  },
+  {
+    "id": 1,
+    "src": "big-game.jpg"
+  },
+  {
+    "id": 2,
+    "src": "bomber-lure.jpg"
+  },
+  {
+    "id": 3,
+    "src": "buzz-lure.jpg"
+  },
+  {
+    "id": 4,
+    "src": "cricket-lure.jpg"
+  },
+  {
+    "id": 5,
+    "src": "ice-lure.jpg"
+  },
+  {
+    "id": 6,
+    "src": "pike-lure.jpg",
+    "ratio": 1
+  },
+  {
+    "id": 7,
+    "src": "soft-tail.jpg",
+    "ratio": 1
+  },
+  {
+    "id": 8,
+    "src": "sonar-lure.jpg",
+    "ratio": 1
+  },
+  {
+    "id": 9,
+    "src": "teaser-lure.jpg",
+    "ratio": 1
+  },
+  {
+    "id": 10,
+    "src": "trout-fire.jpg",
+    "ratio": 1
+  },
+  {
+    "id": 11,
+    "src": "twinspin-angle.jpg",
+    "ratio": 1
+  }
+]

@@ -1,0 +1,51 @@
+.container {
+  flex: 1 0 auto;
+  margin-top: 117px;
+  background-color: #1b1b1b;
+  color: #ffffff;
+  align-items: center;
+}
+
+.accent {
+  color: #cfba58;
+}
+
+.subtle {
+  color: #32322e;
+}
+
+.banner {
+  background-color: #cfba58;
+  padding: 5rem;
+  color: white;
+  text-shadow: 1px 1px 1px #32322e;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-image: url("../img/fish-logo.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 1.3rem;
+}
+
+.big {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.tileBox {
+  display: grid !important;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    ". one . two . three . four ."
+    ". five . six . seven . eight ."
+    ". nine . ten . eleven . twelve .";
+  width: 90%;
+  max-width: 960px;
+  background-image: url("../img/hooks-logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}

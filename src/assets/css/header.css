@@ -1,0 +1,34 @@
+header {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  background-color: #32322e;
+  color: white;
+  padding: 0.5rem 2rem;
+  z-index: 100;
+}
+
+.brand {
+  font-size: 1.5rem;
+  padding: 2rem;
+  color: #ca3211;
+  text-shadow: 1px 1px 1px #000;
+  font-size: 2rem;
+  background-image: url("../img/bass-logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.scores {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#currentScore,
+#topScore {
+  padding: 0, 10px;
+}
