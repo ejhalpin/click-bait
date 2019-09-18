@@ -1,13 +1,13 @@
 import React from "react";
 import "../assets/css/header.css";
 
-const Header = () => {
+const Header = ({ topScore, currentScore, message }) => {
   return (
     <header>
       <div className="brand">Click Bait</div>
-      <div className="message">Welcome</div>
+      <div className="message">{message}</div>
       <div className="scores">
-        Score:&emsp; <span id="currentScore"> 0 </span>&emsp; | &emsp;Top Score:&emsp; <span id="topScore"> 0 </span>
+        Score:&emsp; {currentScore} &emsp; | &emsp;Top Score:&emsp; {topScore}
       </div>
     </header>
   );
